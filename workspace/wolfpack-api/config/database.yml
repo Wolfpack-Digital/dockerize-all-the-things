@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: wolfpack-api_development
+  min_messages: WARNING
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: wolfpack-api_test
+  min_messages: WARNING
+  pool: 5

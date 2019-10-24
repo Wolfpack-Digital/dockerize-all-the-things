@@ -94,7 +94,7 @@ Each instruction creates one layer:
    - `ENTRYPOINT command param1 param2 (shell form)`
    - allows you to configure a container that will run as an executable, eg:
 
-   ```s
+   ```bash
    docker run -i -t --rm -p 80:80 nginx
    ```
 
@@ -132,7 +132,7 @@ Then start with:
 
 ## Cleanup
 
-```shell
+```bash
 docker system prune -a
 > Total reclaimed space: 11.81GB
 ```
