@@ -1,13 +1,15 @@
-development:
+default: &default
   adapter: postgresql
   encoding: unicode
-  database: wolfpack-api_development
-  min_messages: WARNING
+  host: db
+  username: postgres
+  password:
   pool: 5
 
+development:
+  <<: *default
+  database: wolfpack-api_development
+
 test:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   database: wolfpack-api_test
-  min_messages: WARNING
-  pool: 5
