@@ -32,7 +32,7 @@ Docker Engine is a client-server application with these major components:
 
 Source: [Docker.com](https://docs.docker.com/engine/docker-overview/)
 
-## Docker Architeture
+## Docker Architecture
 
 ![architecture](architecture.svg)
 

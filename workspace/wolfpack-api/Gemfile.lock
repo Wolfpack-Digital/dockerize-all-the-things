@@ -267,6 +267,7 @@ DEPENDENCIES
   kaminari
   letter_opener (~> 1.7)
   listen (>= 3.0.5)
+  nokogiri (~> 1.6, >= 1.6.8)
   overcommit (~> 0.46.0)
   pg (>= 0.18)
   puma (~> 3.11)
