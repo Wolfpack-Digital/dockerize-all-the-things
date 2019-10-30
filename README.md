@@ -130,6 +130,13 @@ Then start with:
    - `.dockerignore` - prevents unwanted files and folders to be added to the docker image (eg: `node_modules/`, `dist/`)
    - `docker-compose.yml` - configure relationships between containers`
 
+## Swarm mode
+
+1. `docker swarm init`
+2. `docker stack deploy -c wolfpack-infra/wolfpack-stack.yml demo`
+3. `docker service ls`
+4. `docker stack rm demo`
+
 ## Cleanup
 
 ```bash
